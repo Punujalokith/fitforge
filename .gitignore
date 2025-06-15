@@ -1,0 +1,30 @@
+# Node / Next.js
+node_modules/
+.pnp
+.pnp.js
+.next/
+out/
+
+# Environment — never commit secrets
+.env
+.env.local
+.env*.local
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.metadata
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/.kotlin/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/ios/Flutter/ephemeral/
+mobile/macos/Flutter/ephemeral/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
