@@ -12,3 +12,8 @@
 - Downgrade: records a credit to member's account
 - Plan prices pulled from Firestore settings with fallback defaults
 - Duplicate payment detection: warns if member already paid this month
+
+## [Oct 23] Sidebar — Gate Scanner Navigation
+- Added Gate Scanner link to dashboard sidebar
+- Uses ScanLine icon from lucide-react
+- Positioned below Attendance in nav order
