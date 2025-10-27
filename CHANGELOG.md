@@ -17,3 +17,9 @@
 - Added Gate Scanner link to dashboard sidebar
 - Uses ScanLine icon from lucide-react
 - Positioned below Attendance in nav order
+
+## [Oct 27] Members — ID System and Payment History
+- Member ID badge (FF-XXXX) displayed on all member cards
+- Payment history modal with total paid, pending, count summary
+- Temp password yellow box shown on cards until member changes it
+- Copy-to-clipboard for temp passwords and member IDs
