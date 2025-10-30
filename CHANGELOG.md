@@ -23,3 +23,9 @@
 - Payment history modal with total paid, pending, count summary
 - Temp password yellow box shown on cards until member changes it
 - Copy-to-clipboard for temp passwords and member IDs
+
+## [Oct 30] Members — Temp Password & Credentials Modal
+- After adding a member, a credentials modal shows FF-XXXX + temp password
+- Fallback password generated locally if Firebase Admin API not configured
+- Password format: FF-XXXX-YYYY-RAND for better security
+- Modal always closes after Firestore save regardless of API result
