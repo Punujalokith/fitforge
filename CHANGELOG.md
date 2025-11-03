@@ -29,3 +29,9 @@
 - Fallback password generated locally if Firebase Admin API not configured
 - Password format: FF-XXXX-YYYY-RAND for better security
 - Modal always closes after Firestore save regardless of API result
+
+## [Nov 3] Trainers — Coach Temp Password Flow
+- Trainer cards now show temp password in yellow box (same as member cards)
+- New coach credentials modal after adding a trainer (FC-XXXX + temp password)
+- Reset Password and Delete buttons added to each trainer card
+- addTrainer() now returns { docRef, coachId } for downstream use
