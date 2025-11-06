@@ -35,3 +35,9 @@
 - New coach credentials modal after adding a trainer (FC-XXXX + temp password)
 - Reset Password and Delete buttons added to each trainer card
 - addTrainer() now returns { docRef, coachId } for downstream use
+
+## [Nov 6] Mobile — Coach QR Code Card
+- Coach home screen now shows a QR code card with FC-XXXX code
+- Tap to enlarge: full-screen white dialog with 220x220 QR
+- Purple theme for coach QR vs cyan for member QR
+- Hint text: scan at gate to clock in/out
