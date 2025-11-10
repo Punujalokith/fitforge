@@ -41,3 +41,11 @@
 - Tap to enlarge: full-screen white dialog with 220x220 QR
 - Purple theme for coach QR vs cyan for member QR
 - Hint text: scan at gate to clock in/out
+
+## [Nov 10] Gate Scanner — Coach QR Code Support
+- Gate scanner now detects FC-XXXX prefix for coach codes
+- Scanned coach QR: looks up trainer by coachId field
+- If off-duty: calls startCoachShift() → green 'Shift Started' screen
+- If on-duty: calls endCoachShift() → purple 'Shift Ended' screen
+- Progress bar color matches result type (green/purple/red/yellow)
+- Added getTrainerByCoachId() to Firestore service
