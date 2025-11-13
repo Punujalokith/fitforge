@@ -49,3 +49,9 @@
 - If on-duty: calls endCoachShift() → purple 'Shift Ended' screen
 - Progress bar color matches result type (green/purple/red/yellow)
 - Added getTrainerByCoachId() to Firestore service
+
+## [Nov 13] Firebase Admin — createCoach and resetCoachPassword
+- /api/members now handles createCoach action
+- /api/members now handles resetCoachPassword action
+- generateTempPassword() now includes random suffix (XXXX-YYYY-ABC)
+- Both member and coach API flows share the same route file
