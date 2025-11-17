@@ -55,3 +55,9 @@
 - /api/members now handles resetCoachPassword action
 - generateTempPassword() now includes random suffix (XXXX-YYYY-ABC)
 - Both member and coach API flows share the same route file
+
+## [Nov 17] Mobile — AppProvider Coach Role Support
+- needsPasswordChange now works for both member and coach roles
+- changePassword() updates trainers collection when isCoach is true
+- changePassword() updates members collection for member role
+- SharedPreferences persists user_role across app restarts
