@@ -61,3 +61,8 @@
 - changePassword() updates trainers collection when isCoach is true
 - changePassword() updates members collection for member role
 - SharedPreferences persists user_role across app restarts
+
+## [Nov 20] Mobile — Force Password Screen Coach Support
+- Screen now shows coach name instead of member name for coach role
+- Temp password hint shows coachData tempPassword for coaches
+- Used local variables to avoid Dart string interpolation parse issues
