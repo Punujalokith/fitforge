@@ -66,3 +66,8 @@
 - Screen now shows coach name instead of member name for coach role
 - Temp password hint shows coachData tempPassword for coaches
 - Used local variables to avoid Dart string interpolation parse issues
+
+## [Nov 24] Mobile — Auth Routing Fix
+- main.dart: needsPasswordChange check now runs before isCoach check
+- Both coaches and members hit force password screen on first login
+- AuthWrapper order: loading → not-logged-in → needs-pw-change → coach → member
