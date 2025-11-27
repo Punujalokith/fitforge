@@ -71,3 +71,8 @@
 - main.dart: needsPasswordChange check now runs before isCoach check
 - Both coaches and members hit force password screen on first login
 - AuthWrapper order: loading → not-logged-in → needs-pw-change → coach → member
+
+## [Nov 27] Firebase Admin — Credentials Configured
+- Obtained service account key from Firebase Console
+- Set FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, FIREBASE_PRIVATE_KEY in .env.local
+- Dashboard now auto-creates Firebase Auth accounts when adding members/coaches
