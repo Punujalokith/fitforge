@@ -76,3 +76,9 @@
 - Obtained service account key from Firebase Console
 - Set FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, FIREBASE_PRIVATE_KEY in .env.local
 - Dashboard now auto-creates Firebase Auth accounts when adding members/coaches
+
+## [Dec 1] Fix — Login Navigation Bug
+- Login screen was not navigating after successful auth
+- Root cause: AuthWrapper is behind navigator stack after push
+- Fix: on auth success (err == null), call popUntil(route.isFirst)
+- AuthWrapper then shows correct screen based on role and state
