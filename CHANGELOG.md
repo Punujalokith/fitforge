@@ -82,3 +82,9 @@
 - Root cause: AuthWrapper is behind navigator stack after push
 - Fix: on auth success (err == null), call popUntil(route.isFirst)
 - AuthWrapper then shows correct screen based on role and state
+
+## [Dec 4] Fix — Member Modal Close Bug
+- handleSave in members page: API call not in inner try-catch
+- If /api/members threw, setShowModal(false) never ran
+- Fix: wrap fetch() in separate try-catch, always close modal on Firestore success
+- Fallback password now includes random suffix for better uniqueness
