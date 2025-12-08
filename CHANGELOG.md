@@ -88,3 +88,9 @@
 - If /api/members threw, setShowModal(false) never ran
 - Fix: wrap fetch() in separate try-catch, always close modal on Firestore success
 - Fallback password now includes random suffix for better uniqueness
+
+## [Dec 8] Refactor — Code Cleanup
+- Removed unused imports across dashboard pages
+- Cleaned up dead state variables in payments page
+- Fixed TypeScript any types in a few components
+- Standardized error boundary patterns in Firestore calls
