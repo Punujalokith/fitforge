@@ -94,3 +94,9 @@
 - Cleaned up dead state variables in payments page
 - Fixed TypeScript any types in a few components
 - Standardized error boundary patterns in Firestore calls
+
+## [Dec 11] UI Polish — Dashboard
+- Trainer cards: password-changed border takes priority over on-duty border
+- Gate scanner progress bar color now matches result type correctly
+- Members page: edit form retains trainer assignment field
+- Announcements: AI button disabled during generation
