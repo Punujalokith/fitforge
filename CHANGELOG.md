@@ -100,3 +100,9 @@
 - Gate scanner progress bar color now matches result type correctly
 - Members page: edit form retains trainer assignment field
 - Announcements: AI button disabled during generation
+
+## [Dec 15] Mobile — QR Dialog Improvements
+- Full-screen QR dialog now shows member name below the code
+- Coach QR dialog updated to show 'Scan to Clock In/Out' label
+- QrImageView padding adjusted for better scan reliability
+- Dialog close button uses TextButton for consistent style
