@@ -106,3 +106,9 @@
 - Coach QR dialog updated to show 'Scan to Clock In/Out' label
 - QrImageView padding adjusted for better scan reliability
 - Dialog close button uses TextButton for consistent style
+
+## [Dec 18] Mobile — Home Screen Live Data
+- Gate status banner now animates pulse when open
+- On-duty coaches section shows shift start time
+- Empty state messages added for no coaches/no check-ins
+- Fixed Timestamp.toDate() null safety in coach tile
