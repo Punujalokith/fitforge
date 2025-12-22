@@ -112,3 +112,9 @@
 - On-duty coaches section shows shift start time
 - Empty state messages added for no coaches/no check-ins
 - Fixed Timestamp.toDate() null safety in coach tile
+
+## [Dec 22] Testing — Physical Device APK
+- Release APK built and tested on physical Android device
+- Fixed ADB install block: set verifier_verify_adb_installs=0
+- Confirmed end-to-end flow: role select → login → home → QR → attendance
+- Coach flow tested: login → force pw change → coach home → shift toggle
