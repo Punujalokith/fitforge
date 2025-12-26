@@ -118,3 +118,9 @@
 - Fixed ADB install block: set verifier_verify_adb_installs=0
 - Confirmed end-to-end flow: role select → login → home → QR → attendance
 - Coach flow tested: login → force pw change → coach home → shift toggle
+
+## [Dec 26] Final Review — Consistency Pass
+- Standardized all card border-radius to rounded-xl (14px) across dashboard
+- Flutter: replaced withOpacity() calls with withValues() where flagged
+- Consistent empty state styling across all dashboard pages
+- Mobile font sizes and weights audited for readability
