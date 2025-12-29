@@ -124,3 +124,9 @@
 - Flutter: replaced withOpacity() calls with withValues() where flagged
 - Consistent empty state styling across all dashboard pages
 - Mobile font sizes and weights audited for readability
+
+## [Dec 29] Documentation
+- README updated with full setup guide
+- Added Firebase Admin SDK configuration steps
+- Added Flutter build and ADB install instructions
+- Added environment variable reference table
