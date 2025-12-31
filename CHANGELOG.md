@@ -130,3 +130,21 @@
 - Added Firebase Admin SDK configuration steps
 - Added Flutter build and ADB install instructions
 - Added environment variable reference table
+
+## [v1.0.0] — December 31, 2025 — Production Release
+
+### Web Dashboard Features
+- Member management: add, edit, delete, FF-XXXX IDs, temp passwords
+- Coach/trainer management: FC-XXXX IDs, shift tracking, temp passwords
+- Payments: record, history, pro-rata plan changes, credit system
+- Attendance: real-time check-ins, gate open/close control
+- Gate Scanner: USB QR kiosk — member check-in + coach clock in/out
+- Classes, renewals, announcements, analytics, settings
+- AI announcement writer powered by Claude
+
+### Mobile App Features
+- Member role: membership card, QR code, attendance history, goals, profile
+- Coach role: shift management, coach QR code, live gym stats
+- Force password change on first login (temp password flow)
+- Real-time gate status and on-duty coaches display
+- Firebase Auth with role-based routing
